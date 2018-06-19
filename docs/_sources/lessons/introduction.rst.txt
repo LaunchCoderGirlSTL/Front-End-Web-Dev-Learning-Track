@@ -28,7 +28,7 @@ Every Wednesday we will meet 6-8 p.m. at LaunchCode Mentor Center. What we do at
 
 MeetUps will usually consist of:
 
-**“Quick Talks”** - Mini lessons on things that are challenging or confusing when learning web development.
+**"Quick Talks"** - Mini lessons on things that are challenging or confusing when learning web development.
 
 **Coding Demos** - Sometimes it helps to see how mentors approach problems and challenges, so there will be some coding demonstrations done by the mentors.
 
@@ -47,4 +47,4 @@ When working outside of the meetup make sure to use Slack. Slack is a great tool
 
 If you have slack, but aren't sure how to use it, just Google it. There are some great articles out there. (You can also start with the one Slack offers.)
 
-That's all that you need to know for now. You should now dive into the :ref:`setup`.
+That's all that you need to know for now. You should now work on the :ref:`setup` tasks.

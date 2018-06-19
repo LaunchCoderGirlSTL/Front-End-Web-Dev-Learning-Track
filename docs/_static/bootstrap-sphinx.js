@@ -48,6 +48,7 @@
     $("table.docutils")
       .removeClass("docutils")
       .addClass("table")
+      .addClass("table-striped")
       .attr("border", 0);
   };
 
