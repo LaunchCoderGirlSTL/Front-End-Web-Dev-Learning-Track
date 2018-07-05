@@ -50,6 +50,3 @@ Here are some additional resources for you to skim through. They also might help
 
 In Class
 --------
-
-Assignment
-----------

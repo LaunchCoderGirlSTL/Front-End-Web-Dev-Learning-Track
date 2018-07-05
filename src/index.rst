@@ -7,3 +7,4 @@ Front-End Web Development Learning Track
    lessons/introduction
    lessons/setup
    lessons/lesson01
+   lessons/lesson02
