@@ -1,6 +1,9 @@
 Front-End Web Development Learning Track
 ========================================
 
+Lessons
+-------
+
 .. toctree::
    :maxdepth: 1
 
@@ -8,3 +11,16 @@ Front-End Web Development Learning Track
    lessons/setup
    lessons/lesson01
    lessons/lesson02
+   lessons/lesson03
+   lessons/lesson04
+
+
+Activities
+----------
+
+.. toctree::
+   :maxdepth: 1
+
+   activities/portfolio_1
+   activities/portfolio_2
+   activities/cat_costume_1
