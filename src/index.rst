@@ -13,6 +13,7 @@ Lessons
    lessons/lesson02
    lessons/lesson03
    lessons/lesson04
+   lessons/lesson05
 
 Resources
 ---------
@@ -32,3 +33,5 @@ Activities
    activities/portfolio_1
    activities/portfolio_2
    activities/cat_costume_1
+   activities/using_git_1
+   activities/cat_costume_2

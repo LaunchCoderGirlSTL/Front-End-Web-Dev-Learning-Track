@@ -22,7 +22,14 @@ Practicing using selectors in CSS with this fun game. This isn't so much as an a
 
 `CSS Diner <https://flukeout.github.io/>`_
 
+In Class
+--------
+
+In class, we will go through the :ref:`using_git_1` activity together.
+
 Assignment
 ----------
 
 Work on :ref:`cat_costume_1`
+
+Then, set up your cat project on GitHub following the steps in :ref:`using_git_1`.
