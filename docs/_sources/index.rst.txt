@@ -14,6 +14,14 @@ Lessons
    lessons/lesson03
    lessons/lesson04
 
+Resources
+---------
+
+.. toctree::
+   :maxdepth: 1
+
+   resources/html_css
+   resources/git
 
 Activities
 ----------
