@@ -1,6 +1,16 @@
 Front-End Web Development Learning Track
 ========================================
 
+Front-End Web Development covers the basics of web development using HTML, CSS, and JavaScript, how to build responsive websites for mobile through desktop, and get prepared to learn additional web frameworks like Angular, Ember, and React.
+
+About Us
+--------
+
+.. toctree::
+   :maxdepth: 1
+
+   about
+
 Lessons
 -------
 
