@@ -1,2 +1,2 @@
-Lesson 5: Responisve Design
+Lesson 5: Responsive Design
 ---------------------------
