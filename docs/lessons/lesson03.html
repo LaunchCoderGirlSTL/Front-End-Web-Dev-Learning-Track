@@ -170,7 +170,10 @@
 <li><a class="reference internal" href="#">Lesson 3: HTML</a><ul>
 <li><a class="reference internal" href="#prep-work">Prep Work</a></li>
 <li><a class="reference internal" href="#in-class-work">In-class Work</a></li>
-<li><a class="reference internal" href="#assignment">Assignment</a></li>
+<li><a class="reference internal" href="#assignment">Assignment</a><ul>
+<li><a class="reference internal" href="#git-going">Git Going!</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -192,12 +195,133 @@
 <div class="section" id="assignment">
 <h2>Assignment<a class="headerlink" href="#assignment" title="Permalink to this headline">¶</a></h2>
 <p>Your assignment is to start building your portfolio site. We will be covering different elements that will make this site look better over the coming weeks, so don’t panic if it doesn’t look the way you want it to today!</p>
-<ol class="arabic simple">
-<li>As you have done in the previous lesson, initialize a git repository for your project.</li>
-<li>Using the terminal, create two files in your project’s directory. The first file should be named index.html and the second should be named resume.html.</li>
-<li>In your resume.html file, you should take your current resume and make it into a webpage.</li>
-<li>In your index.html file, create the homepage of your portfolio site. Make sure to include a link to your resume page!</li>
+<ol class="arabic">
+<li><p class="first">Navigate into the parent folder where you keep all your course materials (e.g. <code class="docutils literal notranslate"><span class="pre">codergirl/</span></code> or <code class="docutils literal notranslate"><span class="pre">code/</span></code>). Only you know where that folder lives in your file system.</p>
+</li>
+<li><p class="first">Make a new folder for this assignment with the  <code class="docutils literal notranslate"><span class="pre">mkdir</span></code> command. For example, <code class="docutils literal notranslate"><span class="pre">mkdir</span> <span class="pre">my_portfolio_site</span></code>.</p>
+</li>
+<li><p class="first">Within your new <code class="docutils literal notranslate"><span class="pre">my_portfolio_site/</span> <span class="pre">directory</span></code>, create and save a new file called <code class="docutils literal notranslate"><span class="pre">index.html</span></code>:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ touch index.html
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The filename <code class="docutils literal notranslate"><span class="pre">index.html</span></code> is a standard convention for the name of the root page of a website. Most web servers will treat <code class="docutils literal notranslate"><span class="pre">index.html</span></code> as the default file to load from a given directory.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Open up your new file in a text editor. Add a single line with the following HTML:</p>
+<blockquote>
+<div><div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>YOUR NAME<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Save your file.</p>
+</li>
+<li><p class="first">Finally, open up the file in a web browser. You can do this by selecting File &gt; Open File in your web browser, and navigating to the location of your new HTML file.</p>
+</li>
 </ol>
+<p>You should see a blank white page with your name in the top-left corner.</p>
+<div class="section" id="git-going">
+<h3>Git Going!<a class="headerlink" href="#git-going" title="Permalink to this headline">¶</a></h3>
+<p>Now let’s incorporate Git into the picture.</p>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt><strong>Initialize the project as a Git repository.</strong></dt>
+<dd><p class="first">In your terminal, make sure you are inside your <code class="docutils literal notranslate"><span class="pre">my_portfolio_site</span></code> folder, and then use the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">init</span></code> command to initialize that folder as a Git repository:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">pwd</span>
+/Users/adalovelace/codergirl/my_portfolio_site
+$ git init
+Initialized empty Git repository in /Users/adalovelace/codergirl/my_portfolio_site/.git/
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">In place of adalovelace, put your name</p>
+</div>
+<p>Now your project is a Git repository, which will enable you to use all of the magic Git powers:</p>
+<ul class="simple">
+<li>using version-control to manage your changes</li>
+<li>syncing your local repository with a remote repository on Github.com.</li>
+</ul>
+<div class="last admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You will only have to use the command <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">init</span></code> once at the beginning of the project.</p>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Check your status</strong></dt>
+<dd><p class="first">Back in the terminal, use the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code> command to check the status of your newly created repo:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  <span class="o">(</span>use <span class="s2">&quot;git add &lt;file&gt;...&quot;</span> to include in what will be committed<span class="o">)</span>
+
+        index.html
+
+nothing added to commit but untracked files present <span class="o">(</span>use <span class="s2">&quot;git add&quot;</span> to track<span class="o">)</span>
+</pre></div>
+</div>
+<p class="last">This message says a lot of things, but for now, the most important point is that <code class="docutils literal notranslate"><span class="pre">index.html</span></code> is currently “untracked”. We need to <code class="docutils literal notranslate"><span class="pre">add</span></code> and then <code class="docutils literal notranslate"><span class="pre">commit</span></code> the file so that Git can help us manage its changes.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Add your work to the repo</strong></dt>
+<dd><p class="first">Use the git add command to track your index.html file so that it will be staged for your next commit:</p>
+<div class="last highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git add index.html
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Check your status</strong></dt>
+<dd><p class="first">If you check your status again, you should see that your change (the creation of the new file) is staged to be committed:</p>
+<div class="last highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  <span class="o">(</span>use <span class="s2">&quot;git rm --cached &lt;file&gt;...&quot;</span> to unstage<span class="o">)</span>
+
+    new file:   index.html
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Commit</strong></dt>
+<dd><p class="first">Now you are ready to <code class="docutils literal notranslate"><span class="pre">commit</span></code> the changes you have staged.
+Go ahead and commit your changes, along with an appropriate message describing what you have changed:</p>
+<div class="last highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git commit -m <span class="s2">&quot;Created index.html file&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Check your status</strong></dt>
+<dd><p class="first">Now that you have committed, your status should be “clean”:</p>
+<div class="last highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git status
+On branch master
+nothing to commit, working directory clean
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
 </div>
 </div>
 
