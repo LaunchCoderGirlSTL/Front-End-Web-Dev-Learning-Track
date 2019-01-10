@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>My Portfolio Site: Add CSS &#8212; CoderGirl Front-End Web Development  documentation</title>
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/launchcode.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="author" title="About these documents" href="../../about.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Lesson 5: Responsive Design" href="../lesson05.html" />
+    <link rel="prev" title="Lesson 4: CSS" href="../lesson04.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/lc-logo.svg"></span>
+          CoderGirl Web Dev</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Lessons <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html">About This Curriculum</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../lesson01.html">Lesson 1: Installation and Git to know your computer!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson02.html">Lesson 2: Reviewing Git and Github</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson02.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson03.html">Lesson 3: HTML</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson03.html#prep-work">Prep Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson03.html#in-class-work">In-class Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson03.html#assignment">Assignment</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../lesson04.html">Lesson 4: CSS</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../lesson04.html#prep-work">Prep Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson04.html#in-class-work">In-class Work</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../lesson04.html#assignment">Assignment</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson05.html">Lesson 5: Responsive Design</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson05.html#prep-work">Prep Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson05.html#in-class-work">In-class Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson05.html#assignments">Assignments</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson06.html">Lesson 6: CSS Layouts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson06.html#prep-work">Prep Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson06.html#in-class-work">In-class Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson06.html#assignment">Assignment</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson07.html">Lesson 7: What is Javascript?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson07.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson08.html">Lesson 8: Data Types and Variables</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson08.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson09.html">Lesson 9: Conditionals</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson09.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson10.html">Lesson 10: Loops</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson10.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson11.html">Lesson 11: Functions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson11.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson12.html">Lesson 12: Arrays</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson12.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson13.html">Lesson 13: Objects</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson13.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson14.html">Lesson 14: The DOM, Part 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson14.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson15.html">Lesson 15: The DOM, Part 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson16.html">Lesson 16: Creating Content with Javascript, Part 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson16.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson17.html">Lesson 17: Creating Content with Javascript, Part 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson18.html">Lesson 18: Working With Browser Events, Part 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson18.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson19.html">Lesson 19: Working with Browser Events, Part 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson20.html">Lesson 20: Performance, Part 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson20.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson21.html">Lesson 21: Performance, Part 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson22.html">Lesson 22: Final Assignment and an Introduction to Frameworks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson23.html">Lesson 23: Continuing our Introduction to Frameworks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson24.html">Lesson 24: Last Day of Class!</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li><a class="reference internal" href="#">My Portfolio Site: Add CSS</a><ul>
+<li><a class="reference internal" href="#css">CSS</a><ul>
+<li><a class="reference internal" href="#getting-started">Getting Started</a></li>
+<li><a class="reference internal" href="#getting-to-work">Getting to Work</a><ul>
+<li><a class="reference internal" href="#requirements">Requirements</a></li>
+<li><a class="reference internal" href="#notes">Notes</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#resources">Resources</a><ul>
+<li><a class="reference internal" href="#general-css">General CSS</a></li>
+<li><a class="reference internal" href="#css-normalization">CSS Normalization</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#add-and-commit-your-changes-on-git">Add and Commit Your Changes on Git</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="my-portfolio-site-add-css">
+<h1>My Portfolio Site: Add CSS<a class="headerlink" href="#my-portfolio-site-add-css" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="css">
+<h2>CSS<a class="headerlink" href="#css" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="getting-started">
+<h3>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li>Create a file named <code class="docutils literal notranslate"><span class="pre">styles.css</span></code> in your <code class="docutils literal notranslate"><span class="pre">my_portfolio_site</span></code>/ directory.</li>
+<li><strong>This is optional</strong> Add a normalization stylesheet (see the Resources section below; either of those will work). You can either put these normalization rules at the top of your styles.css or you can add another file in the same directory and link it in to your HTML doc. This will “reset” some of your browser’s built-in (and often unsightly) styles so that you are starting with a cleaner slate when you add your own styles.</li>
+</ol>
+</div>
+<div class="section" id="getting-to-work">
+<h3>Getting to Work<a class="headerlink" href="#getting-to-work" title="Permalink to this headline">¶</a></h3>
+<p>Go ahead and start adding styles in your <code class="docutils literal notranslate"><span class="pre">styles.css</span></code> file!</p>
+<div class="section" id="requirements">
+<h4>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h4>
+<p>Here are some specific requirements you should fulfill:</p>
+<ol class="arabic simple">
+<li>Use <a class="reference external" href="https://www.w3schools.com/css/css_margin.asp">margin</a> and <a class="reference external" href="https://www.w3schools.com/css/css_padding.asp">padding</a> to space your elements in a visually pleasing way.</li>
+<li>Use at least one of each of the following types of selectors: <a class="reference external" href="https://www.w3schools.com/cssref/sel_element.asp">element</a>, <a class="reference external" href="https://www.w3schools.com/cssref/sel_class.asp">class</a>, <a class="reference external" href="https://www.w3schools.com/cssref/sel_id.asp">id</a>.</li>
+<li><dl class="first docutils">
+<dt>Don’t break these rules:</dt>
+<dd><ol class="first last arabic">
+<li>At all costs, avoid adding HTML elements in order to achieve a specific visual effect.</li>
+<li>Use document-level and inline styles sparingly, and only when absolutely necessary.</li>
+</ol>
+</dd>
+</dl>
+</li>
+<li>As before, be creative! Make your page look great, and don’t settle for checking off the items above. Have a look at <a class="reference external" href="http://www.csszengarden.com/">CSS Zen Garden</a> for inspiration (use your browser’s developer tools to see how those pages’ styles are built).</li>
+</ol>
+</div>
+<div class="section" id="notes">
+<h4>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h4>
+<p>In order to see any visible change, make sure to link the stylesheet to your main document.
+Feel free to check out our styled example to see how we did things. Use “View Source” (by right-clicking anywhere on the page and selecting View Source).
+Another thing you might find useful is your browser’s developer tools.
+And be sure to use the Resources section below as you go.</p>
+</div>
+</div>
+<div class="section" id="resources">
+<h3>Resources<a class="headerlink" href="#resources" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="general-css">
+<h4>General CSS<a class="headerlink" href="#general-css" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><a class="reference external" href="https://www.w3schools.com/css/default.asp">w3schools CSS Reference</a></li>
+<li><a class="reference external" href="http://www.csszengarden.com/">CSS Zen Garden</a></li>
+<li>(Advanced) <a class="reference external" href="https://css-tricks.com/specifics-on-css-specificity/">Specifics on CSS Specificity</a></li>
+<li>(Advanced) <a class="reference external" href="https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity">Specificity (MDN)</a></li>
+</ol>
+</div>
+<div class="section" id="css-normalization">
+<h4>CSS Normalization<a class="headerlink" href="#css-normalization" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><a class="reference external" href="https://meyerweb.com/eric/tools/css/reset/">Eric Meyer’s reset.css</a></li>
+<li><a class="reference external" href="http://necolas.github.io/normalize.css/">normalize.css</a></li>
+</ol>
+</div>
+</div>
+<div class="section" id="add-and-commit-your-changes-on-git">
+<h3>Add and Commit Your Changes on Git<a class="headerlink" href="#add-and-commit-your-changes-on-git" title="Permalink to this headline">¶</a></h3>
+<p>When you have finished making your page look spiffy, take a moment once again to commit your changes on Git:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git add styles.css
+$ git commit -m <span class="s2">&quot;Added some CSS styling&quot;</span>
+</pre></div>
+</div>
+<p>If, in the course of editing your styles, you also made some tweaks to your <code class="docutils literal notranslate"><span class="pre">index.html</span></code> file, then you will need to commit those changes as well (along with a descriptive commit message):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git add index.html
+$ git commit -m <span class="s2">&quot;Changed title from &#39;My Favorite Puppies&#39; to &#39;The Objectively Best Puppies&#39;&quot;</span>
+</pre></div>
+</div>
+<p>Note, however, that you certainly can, and often will, add multiple files to the same commit. For example, suppose you have made some changes to both files, index.html and styles.css, but those changes can all reasonably be lumped together as part of the same unit of work. In that case you would simply add them both before committing:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git add index.html
+$ git add styles.css
+$ git commit -m <span class="s2">&quot;Added puppy image with thick yellow border&quot;</span>
+</pre></div>
+</div>
+<p>Finally, there is a convenient command, git add ., for those (frequent) occasions where you just want to include every changed file without having to type each one out manually. The following example is exactly equivalent to the previous one (assuming you have only changed those two files):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git add .
+$ git commit -m <span class="s2">&quot;Added puppy image with thick yellow border&quot;</span>
+</pre></div>
+</div>
+<p>It is usually a good idea to check first (using <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code>) before running <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span> <span class="pre">.</span></code>, so that you don’t mistakenly include unwanted changes.</p>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="../../_sources/lessons/assignments/my_portfolio_site_2.rst.txt"
+     rel="nofollow">Page Source</a>
+</div>
+      
+    </p>
+    <p>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

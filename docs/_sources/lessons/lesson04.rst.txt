@@ -16,7 +16,7 @@ Assignment
 
 Now that you have created a basic HTML structure to your portfolio site, let's add some CSS!
 
-1. Create a CSS stylesheet for your site. 
-
-2. Add your styles to your index.html and resume.html files and reformat them to fit your styling.
-
+.. toctree::
+   :maxdepth: 1
+   
+   assignments/my_portfolio_site_2

@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>My Portfolio Site &#8212; CoderGirl Front-End Web Development  documentation</title>
+    <link rel="stylesheet" href="../../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/css/launchcode.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../_static/bootstrap-sphinx.js"></script>
+    <link rel="author" title="About these documents" href="../../about.html" />
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Lesson 4: CSS" href="../lesson04.html" />
+    <link rel="prev" title="Lesson 3: HTML" href="../lesson03.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head><body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../../index.html"><span><img src="../../_static/lc-logo.svg"></span>
+          CoderGirl Web Dev</a>
+        <span class="navbar-text navbar-version pull-left"><b></b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../../index.html">Lessons <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"><ul>
+<li class="toctree-l1"><a class="reference internal" href="../../about.html">About This Curriculum</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../lesson01.html">Lesson 1: Installation and Git to know your computer!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson02.html">Lesson 2: Reviewing Git and Github</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson02.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="../lesson03.html">Lesson 3: HTML</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../lesson03.html#prep-work">Prep Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson03.html#in-class-work">In-class Work</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../lesson03.html#assignment">Assignment</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson04.html">Lesson 4: CSS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson04.html#prep-work">Prep Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson04.html#in-class-work">In-class Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson04.html#assignment">Assignment</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson05.html">Lesson 5: Responsive Design</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson05.html#prep-work">Prep Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson05.html#in-class-work">In-class Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson05.html#assignments">Assignments</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson06.html">Lesson 6: CSS Layouts</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson06.html#prep-work">Prep Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson06.html#in-class-work">In-class Work</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lesson06.html#assignment">Assignment</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson07.html">Lesson 7: What is Javascript?</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson07.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson08.html">Lesson 8: Data Types and Variables</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson08.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson09.html">Lesson 9: Conditionals</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson09.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson10.html">Lesson 10: Loops</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson10.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson11.html">Lesson 11: Functions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson11.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson12.html">Lesson 12: Arrays</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson12.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson13.html">Lesson 13: Objects</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson13.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson14.html">Lesson 14: The DOM, Part 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson14.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson15.html">Lesson 15: The DOM, Part 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson16.html">Lesson 16: Creating Content with Javascript, Part 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson16.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson17.html">Lesson 17: Creating Content with Javascript, Part 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson18.html">Lesson 18: Working With Browser Events, Part 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson18.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson19.html">Lesson 19: Working with Browser Events, Part 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson20.html">Lesson 20: Performance, Part 1</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lesson20.html#prep-work">Prep Work</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson21.html">Lesson 21: Performance, Part 2</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson22.html">Lesson 22: Final Assignment and an Introduction to Frameworks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson23.html">Lesson 23: Continuing our Introduction to Frameworks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lesson24.html">Lesson 24: Last Day of Class!</a></li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+            
+            
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-3">
+        <div id="sidebar" class="bs-sidenav" role="complementary"><ul>
+<li><a class="reference internal" href="#">My Portfolio Site</a><ul>
+<li><a class="reference internal" href="#setup">Setup</a></li>
+<li><a class="reference internal" href="#git-going">Git Going!</a></li>
+<li><a class="reference internal" href="#html">HTML</a><ul>
+<li><a class="reference internal" href="#getting-started">Getting Started</a></li>
+<li><a class="reference internal" href="#getting-to-work">Getting to Work</a><ul>
+<li><a class="reference internal" href="#notes-and-tips">Notes and Tips</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#add-and-commit-your-changes-on-git">Add and Commit Your Changes on Git</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    <div class="col-md-9 content">
+      
+  <div class="section" id="my-portfolio-site">
+<h1>My Portfolio Site<a class="headerlink" href="#my-portfolio-site" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="setup">
+<h2>Setup<a class="headerlink" href="#setup" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p class="first">Navigate into the parent folder where you keep all your course materials (e.g. <code class="docutils literal notranslate"><span class="pre">codergirl/</span></code> or <code class="docutils literal notranslate"><span class="pre">code/</span></code>). Only you know where that folder lives in your file system.</p>
+</li>
+<li><p class="first">Make a new folder for this assignment with the  <code class="docutils literal notranslate"><span class="pre">mkdir</span></code> command. For example, <code class="docutils literal notranslate"><span class="pre">mkdir</span> <span class="pre">my_portfolio_site</span></code>.</p>
+</li>
+<li><p class="first">Within your new <code class="docutils literal notranslate"><span class="pre">my_portfolio_site/</span> <span class="pre">directory</span></code>, create and save a new file called <code class="docutils literal notranslate"><span class="pre">index.html</span></code>:</p>
+<blockquote>
+<div><div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ touch index.html
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The filename <code class="docutils literal notranslate"><span class="pre">index.html</span></code> is a standard convention for the name of the root page of a website. Most web servers will treat <code class="docutils literal notranslate"><span class="pre">index.html</span></code> as the default file to load from a given directory.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Open up your new file in a text editor. Add a single line with the following HTML:</p>
+<blockquote>
+<div><div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>YOUR NAME<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Save your file.</p>
+</li>
+<li><p class="first">Finally, open up the file in a web browser. You can do this by selecting File &gt; Open File in your web browser, and navigating to the location of your new HTML file.</p>
+</li>
+</ol>
+<p>You should see a blank white page with your name in the top-left corner.</p>
+</div>
+<div class="section" id="git-going">
+<h2>Git Going!<a class="headerlink" href="#git-going" title="Permalink to this headline">¶</a></h2>
+<p>Now let’s incorporate Git into the picture.</p>
+<ol class="arabic">
+<li><dl class="first docutils">
+<dt><strong>Initialize the project as a Git repository.</strong></dt>
+<dd><p class="first">In your terminal, make sure you are inside your <code class="docutils literal notranslate"><span class="pre">my_portfolio_site</span></code> folder, and then use the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">init</span></code> command to initialize that folder as a Git repository:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ <span class="nb">pwd</span>
+/Users/adalovelace/codergirl/my_portfolio_site
+$ git init
+Initialized empty Git repository in /Users/adalovelace/codergirl/my_portfolio_site/.git/
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">In place of adalovelace, put your name</p>
+</div>
+<p>Now your project is a Git repository, which will enable you to use all of the magic Git powers:</p>
+<ul class="simple">
+<li>using version-control to manage your changes</li>
+<li>syncing your local repository with a remote repository on Github.com.</li>
+</ul>
+<div class="last admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">You will only have to use the command <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">init</span></code> once at the beginning of the project.</p>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Check your status</strong></dt>
+<dd><p class="first">Back in the terminal, use the <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">status</span></code> command to check the status of your newly created repo:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  <span class="o">(</span>use <span class="s2">&quot;git add &lt;file&gt;...&quot;</span> to include in what will be committed<span class="o">)</span>
+
+        index.html
+
+nothing added to commit but untracked files present <span class="o">(</span>use <span class="s2">&quot;git add&quot;</span> to track<span class="o">)</span>
+</pre></div>
+</div>
+<p class="last">This message says a lot of things, but for now, the most important point is that <code class="docutils literal notranslate"><span class="pre">index.html</span></code> is currently “untracked”. We need to <code class="docutils literal notranslate"><span class="pre">add</span></code> and then <code class="docutils literal notranslate"><span class="pre">commit</span></code> the file so that Git can help us manage its changes.</p>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Add your work to the repo</strong></dt>
+<dd><p class="first">Use the git add command to track your index.html file so that it will be staged for your next commit:</p>
+<div class="last highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git add index.html
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Check your status</strong></dt>
+<dd><p class="first">If you check your status again, you should see that your change (the creation of the new file) is staged to be committed:</p>
+<div class="last highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  <span class="o">(</span>use <span class="s2">&quot;git rm --cached &lt;file&gt;...&quot;</span> to unstage<span class="o">)</span>
+
+    new file:   index.html
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Commit</strong></dt>
+<dd><p class="first">Now you are ready to <code class="docutils literal notranslate"><span class="pre">commit</span></code> the changes you have staged.
+Go ahead and commit your changes, along with an appropriate message describing what you have changed:</p>
+<div class="last highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git commit -m <span class="s2">&quot;Created index.html file&quot;</span>
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Check your status</strong></dt>
+<dd><p class="first">Now that you have committed, your status should be “clean”:</p>
+<div class="last highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git status
+On branch master
+nothing to commit, working directory clean
+</pre></div>
+</div>
+</dd>
+</dl>
+</li>
+</ol>
+</div>
+<div class="section" id="html">
+<h2>HTML<a class="headerlink" href="#html" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="getting-started">
+<h3>Getting Started<a class="headerlink" href="#getting-started" title="Permalink to this headline">¶</a></h3>
+<p>Stub out index.html with these basic elements:</p>
+<ol class="arabic simple">
+<li>the HTML5 doctype</li>
+<li><code class="docutils literal notranslate"><span class="pre">&lt;html&gt;</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">&lt;head&gt;</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">&lt;title&gt;</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">&lt;body&gt;</span></code></li>
+</ol>
+<p>and fill each element with some appropriate content. You can start by removing the snippet of HTML that you added during setup.</p>
+</div>
+<div class="section" id="getting-to-work">
+<h3>Getting to Work<a class="headerlink" href="#getting-to-work" title="Permalink to this headline">¶</a></h3>
+<p>Your mission is to create a resume page that tells the story of your professional journey to-date, and where you want to go as a coder.</p>
+<p>Here are the requirements:</p>
+<ol class="arabic">
+<li><p class="first">Uses each of the following structural HTML5 tags: <code class="docutils literal notranslate"><span class="pre">&lt;p&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;header&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;footer&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;main&gt;</span></code>, <code class="docutils literal notranslate"><span class="pre">&lt;article&gt;</span></code>. If you need to brush up on what each of these tags is used for, or if any of them are new to you, check out the <a class="reference external" href="https://www.w3schools.com/tags/default.asp">HTML tag reference</a> at w3schools.</p>
+</li>
+<li><p class="first">Uses at least one HTML entity.</p>
+<blockquote>
+<div><div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p class="last">Putting a copyright notice in your footer will afford you the opportunity to use &amp;copy;, but you should also try to get creative here.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p class="first">Is creative. Don’t stop with these items or tags. Have some ideas for your page, and make it great. And dig into the w3schools HTML reference to learn more about other tags, their usage and attributes!</p>
+</li>
+</ol>
+<div class="section" id="notes-and-tips">
+<h4>Notes and Tips<a class="headerlink" href="#notes-and-tips" title="Permalink to this headline">¶</a></h4>
+<p>Use your browser developer tools to look at the example page, or to troubleshoot things that don’t look right. You can mimic the document structure of this example, but <strong>do not just copy/paste</strong>! Use the example to learn how your HTML elements might be structured, and structure your own page according to your own content’s needs.
+Don’t add any CSS yet. Really, we mean it! If you think your page looks boring now, that’s okay. We’ll get there soon enough.
+As you make changes, you will obviously want to see the results. To do so, simply re-save the file in your text editor, and then, over in your browser window, click Refresh (or use cmd+R on a Mac, ctrl+R on Windows).
+Rely on reference sites linked on this page, and elsewhere online. We haven’t taught you every detail about every tag that you may want or need to use, and you’re free to use tags that haven’t been explicitly introduced in class. We’ve given you enough background to get started, and are intentionally leaving some of the learning up to you.</p>
+</div>
+</div>
+<div class="section" id="add-and-commit-your-changes-on-git">
+<h3>Add and Commit Your Changes on Git<a class="headerlink" href="#add-and-commit-your-changes-on-git" title="Permalink to this headline">¶</a></h3>
+<p>Once you are finished, use Git once again to <code class="docutils literal notranslate"><span class="pre">add</span></code> and <code class="docutils literal notranslate"><span class="pre">commit</span></code> your index.html changes.</p>
+<p>Why again?</p>
+<p>The reason is that, since you have added a bunch of new HTML code, your index.html file is now in a very different state from how it looked the first time you committed it. You can see this by checking your status:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git status
+On branch master
+Changes not staged <span class="k">for</span> commit:
+  <span class="o">(</span>use <span class="s2">&quot;git add &lt;file&gt;...&quot;</span> to update what will be committed<span class="o">)</span>
+  <span class="o">(</span>use <span class="s2">&quot;git checkout -- &lt;file&gt;...&quot;</span> to discard changes in working directory<span class="o">)</span>
+
+     modified:   index.html
+
+no changes added to commit <span class="o">(</span>use <span class="s2">&quot;git add&quot;</span> and/or <span class="s2">&quot;git commit -a&quot;</span><span class="o">)</span>
+</pre></div>
+</div>
+<p>Git is telling us: <cite>I see that you have modified</cite> <code class="docutils literal notranslate"><span class="pre">index.html</span></code>. <cite>Use</cite> <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">add</span></code> <cite>if you want this file’s changes to be included in your next commit.</cite></p>
+<p>At the risk of oversimplifying a bit, the Git workflow more or less comes down to this:</p>
+<ol class="arabic simple">
+<li>Create some initial stuff</li>
+<li><code class="docutils literal notranslate"><span class="pre">init</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">add</span></code> and <code class="docutils literal notranslate"><span class="pre">commit</span></code></li>
+<li>Make some changes</li>
+<li><code class="docutils literal notranslate"><span class="pre">add</span></code> and <code class="docutils literal notranslate"><span class="pre">commit</span></code></li>
+<li>Make some more changes</li>
+<li><code class="docutils literal notranslate"><span class="pre">add</span></code> and <code class="docutils literal notranslate"><span class="pre">commit</span></code></li>
+</ol>
+<p>and so on until the project is complete!</p>
+<p>The general rule is that whenever you make any changes, you must add and commit those changes to Git.</p>
+<p>So let’s now go ahead and do that. From within your root <code class="docutils literal notranslate"><span class="pre">my_portfolio_site</span></code>/ directory:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git add index.html
+$ git commit -m <span class="s2">&quot;Finished work on HTML page&quot;</span>
+</pre></div>
+</div>
+<p>You might be wondering: <cite>How do I know when it’s time to pause working and do another commit?</cite></p>
+<p>This is somewhat subjective, and ultimately up to you. The basic guiding principle is that you should pause and commit any time you have reached a natural stopping point and completed a coherent “chunk of work”.</p>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+        <br/>
+        
+<div id="sourcelink">
+  <a href="../../_sources/lessons/assignments/my_portfolio_site.rst.txt"
+     rel="nofollow">Page Source</a>
+</div>
+      
+    </p>
+    <p>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
