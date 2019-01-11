@@ -1,20 +1,48 @@
+a, a:hover, a:focus {
+	color: #df552d;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+    color: inherit;
+}
+
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover {
+    text-decoration: none;
+}
+
 code {
-    color: #f47753;
+    color: #df552d;
     background-color: #f9f1ef;
 }
+
 .navbar-brand {
     padding: 15px 15px;
     line-height: 30px;
 }
+
 .navbar-brand img {
     margin-top: -10px;
     margin-right: 10px;
 }
+
 /* Trick to prevent section headings from hiding behind the navbar */
 .section {
     margin-top: -60px;
     padding-top: 60px;
 }
+
 /* Allow scrolling of dropdown */
 .dropdown-menu.globaltoc {
   max-height: calc(100vh - 60px);
@@ -37,7 +65,7 @@ aside::before {
     /*top: -1em;*/
     padding: 0.5em;
     padding-right: 1em;
-    font-family: "Nexa black";
+    font-family: "Nexa Black";
     color: rgb(54, 74, 95);
     border-bottom: 1px solid #eee;
 }
@@ -83,6 +111,85 @@ aside::before {
     margin-top: 2em;
 }
 
+div.admonition {
+    padding: 2em;
+    padding-top: 1em;
+    border-radius: 2px;
+    margin: 2em;
+    /*border: 1px solid #eee;*/
+    box-shadow: 0 4px 10px 0 #eee;
+    background-color: #fff;
+    border: none;
+    color: rgb(52, 74, 95);
+}
+
+.admonition-title {
+    position: relative;
+    left: -2em;
+    /*top: -1em;*/
+    padding: 0.5em;
+    padding-right: 1em;
+    font-family: "Nexa Black";
+    color: rgb(54, 74, 95);
+    border-bottom: 1px solid #eee;
+    display: inline-block;
+}
+
+.admonition .admonition-title::before {
+    margin-right: .25em;
+}
+
+.attention .admonition-title::before {
+    content: "📢";
+}
+
+.caution .admonition-title::before {
+    content: "⚠️";
+}
+
+.danger .admonition-title::before {
+    content: "🧨";
+}
+
+.error .admonition-title::before {
+    content: "🚨";
+}
+
+.hint .admonition-title::before {
+    content: "🔎";
+}
+
+.important .admonition-title::before {
+    content: "🔑";
+}
+
+.note .admonition-title::before {
+    content: "📘";
+}
+
+.tip .admonition-title::before {
+    content: "💡";
+}
+
+.warning .admonition-title::before {
+    content: "⚠️";
+}
+
+.admonition-generic .admonition-title::before {
+    content: "✱";
+}
+
+.content .admonition p.last {
+    margin: 0;
+    margin-top: 1em;
+}
+
+.content .admonition p.first {
+    margin-top: 2em;
+}
+
+/* Bonus Missions */
+
 #bonus-missions > h1 a:first-child::before,
 #bonus-mission > h1 a:first-child::before,
 #bonus-missions > h2 a:first-child::before,
@@ -95,52 +202,6 @@ aside::before {
 #bonus-mission > h5 a:first-child::before {
     content: '🚀 ';
 }
-
-admonition {
-    padding: 2em;
-    padding-top: 1em;
-    border-radius: 2px;
-    margin: 2em;
-    /*border: 1px solid #eee;*/
-    box-shadow: 0 4px 10px 0 #eee;
-}
-
-admonition::before {
-    position: relative;
-    left: -2em;
-    /*top: -1em;*/
-    padding: 0.5em;
-    padding-right: 1em;
-    font-family: "Nexa black";
-    color: rgb(54, 74, 95);
-    border-bottom: 1px solid #eee;
-}
-
-.admonition-note::before {
-    content: "✶ Note";
-}
-
-.admonition-warning::before {
-    content: "⚠️ Warning";
-}
-
-.admonition-hint::before {
-    content: "🔎 Hint";
-}
-
-.admonition-tip::before {
-    content: "🎻 Pro Tip";
-}
-
-.content admonition p {
-    margin: 0;
-    margin-top: 1em;
-}
-
-.content admonition p:first-child {
-    margin-top: 2em;
-}
-/* */
 
 pre {
     display: block;
@@ -182,3 +243,56 @@ div.topic {
     padding: 7px;
 }
 
+/* Sidebar Navigation */
+
+.bs-sidenav,
+div.contents {
+    background-color: #fff;
+    font-family: "Nexa",sans-serif;
+    border: 1px solid #cacacb;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-radius: 0;
+}
+
+div.contents ul  {
+    list-style: none;
+    padding-left: 15px;
+}
+
+div.contents a:hover {
+    text-decoration: none;
+}
+
+.bs-sidenav .nav-header {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bs-sidenav .nav > li > a:hover, 
+.bs-sidenav .nav > li > a:focus {
+    background-color: #fff;
+    border: none;
+    color: #df552d;
+}
+
+.bs-sidenav > .nav-list {
+    margin: 10px 0;
+}
+
+.bs-sidenav .nav-list li {
+    font-size: 16px;
+    margin: 2px 0;
+}
+
+/* TODO - Remove these after updating shared ed styles */
+
+h2, h3, h4, h5, h6 {
+    margin-top: 0.5em !important;
+}
+
+/* END TODO */
+
+.footer p {
+    margin: 0 0 10.5px;
+}
