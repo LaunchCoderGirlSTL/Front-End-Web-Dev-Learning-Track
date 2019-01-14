@@ -3,15 +3,14 @@ Lesson 5: Responsive Design
 
 Prep Work
 =========
-
+There are many different ways to get your design to be responsive. For this lesson, we will be focused on Bootstrap. Check out this `series of videos <https://scrimba.com/g/gbootstrap4/>`_ to get familiar with Bootstrap before class.
 
 In-class Work
 =============
 
-Today in class, we will be covering responsive design.
+After we talk about Bootstrap, there will be time for you to work on your portfolio site.
 
 Assignments
 ===========
 
-Now we can add responsive design to our portfolio sites! That way, any one who looks at it will see your site as you intend them to on any platform!
-
+Your task is to add Bootstrap to your project.
